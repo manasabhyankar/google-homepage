@@ -1,1 +1,1 @@
-# google-homepage
+Creating a web page that resembles the Google search page using pure HTML and CSS.
