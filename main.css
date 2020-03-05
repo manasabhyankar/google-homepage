@@ -11,14 +11,25 @@ p {
     flex-direction: row;
     justify-content: space-between;
 }
+#footer{
+    margin-left: -20px;
+    height: 30px;
+    background-color: lightgrey;
+    bottom: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: absolute;
+    border: 1px 1px 0px 1px;
+    border-color: rgb(48, 45, 45);
+}
 #google-logo{
     margin: 100px auto auto auto;
     padding-top: 60px;
 }
 #search-bar{
-    display: inline-block;
+    display: inline;
     justify-content: center;
-    
 }
 #search{
     margin-top: 23px;
@@ -31,6 +42,7 @@ p {
 }
 #search:focus{
     outline: white;
+    box-shadow: 0px 1px 10px 1px lightgray;
 }
 #search:hover{
     box-shadow: 0px 1px 10px 1px lightgray;
